@@ -1,4 +1,5 @@
 @extends('layouts.main')
+
 @section('content')
 
     <!doctype html>
@@ -11,21 +12,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <style>
         body {
-            background: url({{ asset('images/3.jpg') }}); /* Цвет фона и путь к файлу */
+            background: url({{ asset('images/list.jpg') }});
 
         }
     </style>
 </head>
 <body>
-<h1 style="font-family: Arial Narrow, sans-serif">Книги</h1>
-{{--<img style="width: 100%;" src="{{ asset('images/3.jpg') }}" alt="">--}}
+<h1 style="font-family: Arial Narrow, sans-serif">Список книг</h1>
 @include('components.books-list')
 
 </body>
 </html>
-
-
-
 
 {{--    @can('create', 'App\Models\Book')--}}
 {{--        <p>--}}

@@ -29,7 +29,7 @@
             <input class="form-control" type="password" id="password_confirmation" name="password_confirmation">
         </div>
 
-        <button>Зарегистрироваться</button>
+        <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
 
     </form>
 

@@ -10,7 +10,7 @@
         </div>
     @endif
 
-    <div style="margin-left: 200px; margin-top: -160px;">
+    <div style="margin-left: 200px; margin-top: -180px;">
 
         <table class="compact">
             <tr>
@@ -32,7 +32,6 @@
                 <td><cite>{{ $book->content  }}</cite></td>
             </tr>
         </table>
-
 
 
     </div>

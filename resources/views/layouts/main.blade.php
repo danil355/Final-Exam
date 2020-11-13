@@ -31,7 +31,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ route('books.create') }}">Добавить</a>
+                    <a class="nav-link" href="{{ route('books.create') }}">Добавить книгу</a>
                 </li>
 
                 @auth

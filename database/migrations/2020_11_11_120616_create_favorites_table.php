@@ -27,7 +27,7 @@ class CreateFavoritesTable extends Migration
                 ->constrained()
                 ->cascadeOnDelete();
 
-            $table->timestamps();
+//            $table->timestamps();
 
             $table->unique(['user_id', 'book_id']);
         });
