@@ -11,7 +11,7 @@ class Book extends Model
 
 
     protected $fillable = [
-        'title', 'author', 'image_path'
+        'title', 'author', 'image_path', 'year', 'content'
     ];
 
     function user() {

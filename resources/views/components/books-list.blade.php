@@ -7,10 +7,9 @@
     <ul class="list-group">
         @foreach($books as $book)
             <li>
-                <a href="{{ route('books.show', $book) }}">
-                    {{ $book->title }}
-
-                </a>
+                <button type="submit" class="btn btn-link">
+                    <a class="btn btn-dark" href="{{ route('books.show', $book) }}">{{ $book->title }}</a>
+                </button>
             </li>
         @endforeach
     </ul>

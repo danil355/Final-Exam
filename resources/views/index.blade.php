@@ -12,14 +12,16 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <style>
             body {
-                background-color: #8d9394; /* Цвет текста */
+                background-color: peru; /* Цвет текста */
             }
         </style>
     </head>
     <body>
     <br>
-    <h1 style="text-align: center; color: gray;">Добро пожаловать в библиотеку книг!</h1>
+    <h1 style="text-align: center; color: linen"><em>Добро пожаловать в библиотеку книг!</em></h1>
     <br>
+    <img style="width: 65%; margin-left: 190px;" src="{{ asset('images/blog.svg') }}" alt="">
+
 
     </body>
     </html>

@@ -44,8 +44,6 @@ class User extends Authenticatable
             ->where('book_id', $book->id)
             ->exists();
 
-
-
     }
 
 }

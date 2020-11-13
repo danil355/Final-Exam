@@ -36,7 +36,7 @@
 
                 @auth
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('user.favorites') }}">Избранное</a>
+                        <a class="nav-link" href="{{ route('user.favorites') }}">Личная библиотека</a>
                     </li>
                 @endauth
 

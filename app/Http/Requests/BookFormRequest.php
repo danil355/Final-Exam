@@ -10,7 +10,10 @@ class BookFormRequest extends FormRequest
         return [
             'title' => 'required|max:255',
             'author' => 'required|max:255',
-            'image_path' => 'nullable|image'
+            'image' => 'nullable|image',
+            'year' => 'required|max:255',
+            'content' => 'required|max:255'
+
         ];
     }
 }
